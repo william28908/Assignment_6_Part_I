@@ -55,7 +55,7 @@ def category():
     # Create a new list called selected_books containing a list of books that have the selected category
     selected_books = []
     for book in books:
-          if book[1] == selected_cat:
+          if book[0] == selected_cat:
                    selected_books.append(book)
                   
 
