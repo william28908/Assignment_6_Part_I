@@ -50,7 +50,7 @@ def home():
 @app.route('/category')
 def category():
     # Store the categoryId passed as a URL parameter into a variable
-    selected_cat = request.args.get("categoryid")
+    selected_cat = request.args.get("categoryid", type=int)
 
     # Create a new list called selected_books containing a list of books that have the selected category
     selected_books = []
