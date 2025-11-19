@@ -32,7 +32,7 @@
         
                 <div class='book'>
                     <!-- Insert the book image stored in the static folder and the book as the alt text -->
-                    <div><img src='{{book[6]}}' alt='{{book[2]}}'/></div>
+                    <div><img src='"{{ url_for('static', filename='images/books/' ~ book[6])}}' alt='{{book[2]}}'/></div>
                     <div class='bookDetailBox'>
                         <!-- Insert the corresponding field into each of the following rows -->
                         <p class='bookTitle'>{{book[2]}}</p>
