@@ -17,6 +17,7 @@ header {
 #searchBoxForm {
     margin-top: 30px;
     display: flex;
+    margin-left: 25px
 }
 #searchBox {
     height: 20px;
