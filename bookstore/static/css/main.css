@@ -162,6 +162,8 @@ main {
     border-top: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    background-color: rgba(173, 216, 230, 0.5); 
+
 }
 
 h1{
@@ -263,17 +265,19 @@ h1{
 
 #catRight {
     padding: 20px 20px 20px 30px;
-    box-shadow: inset 0 0 0 20px #fff9fc;
+    box-shadow: inset 0 0 0 20px rgba(173, 216, 230, 0.5);
     display: flex;
     flex-wrap: wrap;
-    background-color: #fff9fc;
+    background-color: rgba(173, 216, 230, 0.5); 
+
 }
 
 .book {
     width: 350px;
     margin: 30px;
     display: flex;
-    background-color: white;
+    background-color: rgba(173, 216, 230, 0.5); 
+;
 }
 
 .bookDetailBox {
