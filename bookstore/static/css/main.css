@@ -194,8 +194,9 @@ h1{
     max-width: 600px;
     border-left: 1px solid black;
     padding: 20px 0;
-    background-color: #fff9fc;
     text-align: center;
+    background-color: rgba(173, 216, 230, 0.5); 
+
 }
 
 #categorySelections {
@@ -307,4 +308,8 @@ h1{
     color: white;
     font-size: 0.875em;
     text-decoration: none;
+}
+
+html {
+    background-color: rgba(173, 216, 230, 0.5); 
 }
