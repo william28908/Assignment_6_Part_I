@@ -22,7 +22,8 @@
 					 use class='notSelectedCategory' to style the category 
                 -->
 				<p class = "notSelectedCategory"><a href="/category?categoryid={{category[0]}}"> {{category[1]}}</a></p>
-
+			{%endif%}
+		{%endfor%}
 
     </section>
     <section id="catRight">
@@ -45,6 +46,9 @@
                             {% endif %}
                     </div>
                 </div>
+
+
+		{%endfor%}
 		<!-- This is where the for loop code ends -->
 
     </section>
