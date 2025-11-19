@@ -54,9 +54,11 @@ def category():
 
     # Create a new list called selected_books containing a list of books that have the selected category
     selected_books = []
-    for book in books:
-          if book[0] == selected_cat:
-                   selected_books.append(book)
+    for category in categories:
+        if category[0] == selected_cat:
+            for book in books:
+                if book[1] == category[1]:
+                    selected_books.append(book)
                   
 
     # Link to the category page.  Pass the selectedCategory, categories and books as parameters
