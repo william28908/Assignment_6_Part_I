@@ -22,7 +22,7 @@ header {
 #searchBoxForm {
     margin-top: 30px;
     display: flex;
-    margin-left: 25px
+    margin-left: 45px
 }
 #searchBox {
     height: 20px;
@@ -43,6 +43,7 @@ header {
     text-align: center;
     display: block;
     border-radius: 5px;
+    margin-left: 25px;
 }
 
 .dropdownContent {
