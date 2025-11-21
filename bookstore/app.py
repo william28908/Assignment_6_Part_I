@@ -67,7 +67,7 @@ def category():
 @app.route('/search')
 def search():
     #Link to the search results page.
-    return render_template("search.html")
+    return render_template()
 
 @app.errorhandler(Exception)
 def handle_error(e):
